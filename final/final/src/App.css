@@ -1,0 +1,39 @@
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: hsl(186.67,100%,8.82%);
+  background-color: hsl(184.62,33.33%,92.35%);
+
+}
+
+h1{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3rem;
+  color: hsl(184.11,100%,14.31%);
+  margin-left: 4rem;
+}
+
+.content{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.skip_link{
+  background: #67b2ac;
+
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+
+  margin-top: 1em;
+
+  position:absolute;
+  top: 0;
+  right: 10px;
+}
+
+

@@ -1,0 +1,40 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+body{
+    font-family: sans-serif;
+    margin: 10px;
+    text-overflow: ellipsis;
+}
+
+.posts{
+    list-style-type: none;
+    direction: column;
+}
+
+.post__title{
+    padding: 1rem;
+    display: flex;
+    background-color: F6F6EF;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+.post__body{
+    display: block;
+    background-color: beige;
+    font-size: 16px;
+}
+
+.post__comments{
+    display: block;
+    width: 80%;
+    list-style-type:decimal-leading-zero;
+    font-size: 12px;
+    
+}
+

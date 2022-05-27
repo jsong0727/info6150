@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="menubar">
+        <ul class="menu">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="pay.html">Pay</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+    </nav>
+    <form method="POST">
+        <label><span>Name: </span><input type="text" name="name" required></label>
+        <label><span>Email: </span><input type="email" name="email" required></label>
+        <label class="cbox"><span>Do you want us to send you annoying emails?</span><input type="checkbox" name="annoy_me"></label>
+        <select name="tier" required>
+            <option value="">Please Select</option>
+            <option value="1">Silver Tier</option>
+            <option value="2">Gold Tier</option>
+            <option value="3">Platinum Tier</option>
+        </select>
+        <button type="submit">Go!</button>
+    </form>
+</body>
+</html>

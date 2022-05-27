@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+}
+
+head{
+    font-size: 1rem;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    "asid form";
+}
+
+.info{
+    border-style: solid;
+    margin: 1rem;
+}
+
+.info__label{
+    position: relative;
+    top:-0.5rem;
+    left:1rem;
+    display: inline-block;
+    background-color: white;  
+}
+
+
+form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+button{
+    margin-top: 1em;
+}
+
+input{
+    width: 97%;
+}
+    
+@media (max-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    head{
+        font-size: 1em;
+    }
+
+    form{
+        margin-top: 1rem;
+    }
+
+    
+}

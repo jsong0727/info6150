@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.menubar ul{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 2rem;
+    background-color:plum;
+}
+
+li {
+    padding: 1rem;
+}
+
+.menubar li:hover {
+    background-color: purple;
+}
+form {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+form > label {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.cbox {
+    display: inline;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+span {
+    width: 50;
+}

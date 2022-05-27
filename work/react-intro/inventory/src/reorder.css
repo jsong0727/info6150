@@ -1,0 +1,22 @@
+.reorder {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fadein{
+    animation: fade-in 3s;
+}
+
+@keyframes fade-in { 
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+button {
+    margin: 0 3px;
+}

@@ -1,0 +1,66 @@
+
+
+.accordion { 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    margin:0 auto;
+  }
+  
+  .accordion__title { 
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 16px;
+    background: hsl(183.41,100%,17.25%);
+    color:white;
+    overflow: hidden;
+    margin-bottom: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .accordion__title:last-child{
+      margin-bottom: 0;
+  }
+
+  .accordion__title:hover{
+    background: hsl(184.11,100%,14.31%);
+  }
+  
+  
+  .accordion__title::after { 
+    content: "\276F";
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    transition: 250ms;
+  }
+  
+  .accordion__entry--open .accordion__title::after { 
+    content: "\276F";
+    transform: rotate(90deg);
+  }
+  
+  .accordion__body { 
+    display:none;
+  }
+  
+  .accordion__entry--open .accordion__body { 
+    display: block;
+      
+  }
+
+  .accordion__entry--open .accordion__body {
+    color: hsl(186.67,100%,8.82%);
+    padding: 16px;
+    
+    transition: 250ms ease-in-out;
+    
+
+  }
+  

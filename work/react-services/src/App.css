@@ -1,0 +1,84 @@
+
+body{
+    font-family: sans-serif;
+    margin: 10px;
+    background-color: #F3E9DD;
+}
+
+.posts{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.post_body{
+    background-color: #F3E9DD;
+    padding: 2px;
+    margin-left: 2rem;
+}
+
+.post_title {
+    text-decoration: underline;
+    padding: 1rem;
+    display: flex;
+    background-color: #DAB88B;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.comment_email{
+    font-size: 12px;
+    width: 40%;
+    background-color: #FDF6EC;
+}
+.comment_body{
+    padding: 2px;
+    display: flex;
+    flex-direction: center;
+    margin-left: 5rem;
+    width: 80%;
+    list-style-type:none;
+    font-size: 14px;
+}
+
+/*  from https://css.gg/spinner, MIT license: https://css.gg/doc/licence */
+/* Spinner */
+.gg-spinner {
+    transform: scale(var(--ggs,1))
+   }
+   
+   .gg-spinner,
+   .gg-spinner::after,
+   .gg-spinner::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px
+   }
+   
+   .gg-spinner::after,
+   .gg-spinner::before {
+    content: "";
+    position: absolute;
+    border-radius: 100px
+   }
+   
+   .gg-spinner::before {
+    animation: spinner 1s
+    cubic-bezier(.6,0,.4,1) infinite;
+    border: 3px solid transparent;
+    border-top-color: currentColor
+   }
+   
+   .gg-spinner::after {
+    border: 3px solid;
+    opacity: .2
+   }
+   
+   @keyframes spinner {
+    0% { transform: rotate(0deg) }
+    to { transform: rotate(359deg) }
+   } 
